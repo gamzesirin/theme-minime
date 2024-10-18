@@ -1,10 +1,17 @@
 import { ErrorAlert } from '@/components/ui-elements/alerts/ErrorAlert'
+import { InfoAlert } from '@/components/ui-elements/alerts/InfoAlert'
+import SquareErrorAlert from '@/components/ui-elements/alerts/SquareErrorAlert'
+import SquareInfoAlert from '@/components/ui-elements/alerts/SquareInfoAlert'
+import SquareSuccessAlert from '@/components/ui-elements/alerts/SquareSuccessAlert'
+import SquareWarningAlert from '@/components/ui-elements/alerts/SquareWarningAlert'
 import { SuccessAlert } from '@/components/ui-elements/alerts/SuccesAlert'
 import { WarningAlert } from '@/components/ui-elements/alerts/WarningAlert'
 import { WithBackgroundErrorAlert } from '@/components/ui-elements/alerts/WithBackgroundErrorAlert'
+import { WithBackgroundInfoAlert } from '@/components/ui-elements/alerts/WithBackgroundInfoAlert'
 import { WithBackgroundSuccesslert } from '@/components/ui-elements/alerts/WithBackgroundSuccesAlert'
 import { WithBackgroundWarningAlert } from '@/components/ui-elements/alerts/WithBackgroundWarningAlert'
 import { WithIconErrorAlert } from '@/components/ui-elements/alerts/WithIconErrorAlert'
+import { WithIconInfoAlert } from '@/components/ui-elements/alerts/WithIconInfoAlert'
 import { WithIconSuccessAlert } from '@/components/ui-elements/alerts/WithIconSuccesAlert'
 import { WithIconWarningAlert } from '@/components/ui-elements/alerts/WithIconWarningAlert'
 import React from 'react'
@@ -20,6 +27,7 @@ const Alerts = () => {
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts
 						jQuery plugin.
 					</p>
+					<InfoAlert />
 					<ErrorAlert />
 					<WarningAlert />
 					<SuccessAlert />
@@ -31,6 +39,7 @@ const Alerts = () => {
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts
 						jQuery plugin.
 					</p>
+					<WithBackgroundInfoAlert />
 					<WithBackgroundErrorAlert />
 					<WithBackgroundWarningAlert />
 					<WithBackgroundSuccesslert />
@@ -44,6 +53,7 @@ const Alerts = () => {
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts
 						jQuery plugin.
 					</p>
+					<WithIconInfoAlert />
 					<WithIconErrorAlert />
 					<WithIconWarningAlert />
 					<WithIconSuccessAlert />
@@ -55,9 +65,12 @@ const Alerts = () => {
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts
 						jQuery plugin.
 					</p>
-					<WithBackgroundErrorAlert />
-					<WithBackgroundWarningAlert />
-					<WithBackgroundSuccesslert />
+					<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+						<SquareInfoAlert />
+						<SquareErrorAlert />
+						<SquareWarningAlert />
+						<SquareSuccessAlert />
+					</div>
 				</div>
 			</div>
 		</div>
