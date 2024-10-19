@@ -2,10 +2,10 @@
 
 import { useState } from 'react'
 import localFont from 'next/font/local'
-import '@/app/globals.css'
-import Sidebar from '@/components/Sidebar/page'
-import Header from '@/components/Header/page'
-import Footer from '@/components/Footer/page'
+import './globals.css'
+import Sidebar from '@/components/Sidebar/SidebarPage'
+import Header from '@/components/Header/HeaderPage'
+import Footer from '@/components/Footer/FooterPage'
 
 const geistSans = localFont({
 	src: './fonts/GeistVF.woff',
