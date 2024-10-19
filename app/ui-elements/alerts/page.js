@@ -21,7 +21,7 @@ const Alerts = () => {
 		<div className="space-y-5">
 			<div className="flex flex-wrap space-x-4 -mx-2 ">
 				<div className=" flex-1 space-y-4 p-5 rounded-md bg-white border">
-					<h1> Default Alerts</h1>
+					<h2 className="text-lg font-semibold mb-2"> Default Alerts</h2>
 					<p>
 						Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts
@@ -33,7 +33,7 @@ const Alerts = () => {
 					<SuccessAlert />
 				</div>
 				<div className=" flex-1 space-y-4 p-5 rounded-md bg-white border">
-					<h1> Default Alerts</h1>
+					<h2 className="text-lg font-semibold mb-2"> With Background Alerts</h2>
 					<p>
 						Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts
@@ -47,7 +47,7 @@ const Alerts = () => {
 			</div>
 			<div className="flex flex-wrap space-x-4 -mx-2">
 				<div className=" flex-1 space-y-4 p-5 rounded-md bg-white border">
-					<h1> Default Alerts</h1>
+					<h2 className="text-lg font-semibold mb-2"> With Icon Alerts</h2>
 					<p>
 						Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts
@@ -59,7 +59,7 @@ const Alerts = () => {
 					<WithIconSuccessAlert />
 				</div>
 				<div className=" flex-1 space-y-4 p-5 rounded-md bg-white border">
-					<h1> Default Alerts</h1>
+					<h2 className="text-lg font-semibold mb-2"> Square Alerts</h2>
 					<p>
 						Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use
 						one of the four required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts

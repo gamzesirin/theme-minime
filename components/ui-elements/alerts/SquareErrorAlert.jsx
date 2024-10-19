@@ -10,12 +10,8 @@ export default function SquareErrorAlert() {
 	if (!isVisible) return null
 
 	return (
-		<Alert variant="error" className="max-w-sm mx-auto bg-red-50 border border-red-200 p-4 relative">
-			<button
-				onClick={() => setIsVisible(false)}
-				className="absolute top-2 right-2 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 rounded-full"
-				aria-label="Close alert"
-			>
+		<Alert variant="card-error" className="flex flex-col items-center justify-center">
+			<button onClick={() => setIsVisible(false)} className="absolute top-2 right-2" aria-label="Close alert">
 				<XCircle className="h-5 w-5 " />
 			</button>
 			<div className="flex flex-col items-center text-center pt-4">

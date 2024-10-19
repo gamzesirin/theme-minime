@@ -9,7 +9,7 @@ export const WithIconSuccessAlert = () => {
 	if (!isVisible) return null
 
 	return (
-		<Alert variant="success" className="border-t-4 border-green-600 p-4 rounded-md relative">
+		<Alert variant="top-success">
 			<button onClick={() => setIsVisible(false)} className="absolute top-2 right-2">
 				<XCircle className="h-5 w-5" />
 			</button>

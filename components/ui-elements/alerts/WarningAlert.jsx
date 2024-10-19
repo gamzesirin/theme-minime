@@ -3,7 +3,7 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 
 export function WarningAlert() {
 	return (
-		<Alert variant="warning" className="flex items-start p-4 border border-yellow-600 rounded-lg shadow-lg">
+		<Alert variant="warning" className="flex items-start p-4 ">
 			<AlertTriangle className="h-5 w-5  mr-3" />
 			<div>
 				<AlertTitle className="text-lg font-bold ">Warning</AlertTitle>

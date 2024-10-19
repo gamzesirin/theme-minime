@@ -3,7 +3,7 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 
 export function SuccessAlert() {
 	return (
-		<Alert variant="success" className="flex items-start p-4 border border-green-600 rounded-lg shadow-lg">
+		<Alert variant="success" className="flex items-start p-4 ">
 			<CheckCircle className="h-5 w-5  mr-3" />
 			<div>
 				<AlertTitle className="text-lg font-bold">Success</AlertTitle>
