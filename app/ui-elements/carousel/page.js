@@ -59,7 +59,6 @@ const CoruselPage = () => {
 					<h2 className="text-2xl font-bold mb-4">7. Responsive Carousel</h2>
 					<ResponsiveCarousel />
 				</div>
-				{/* <div className=" flex-1 space-y-4 p-5 rounded-md bg-white border"></div> */}
 			</div>
 
 			<section></section>
