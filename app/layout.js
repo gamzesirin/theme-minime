@@ -6,12 +6,13 @@ import './globals.css'
 import Sidebar from '@/components/Sidebar/SidebarPage'
 import Header from '@/components/Header/HeaderPage'
 import Footer from '@/components/Footer/FooterPage'
-
+import { Toaster } from '@/components/ui/toaster'
 const geistSans = localFont({
 	src: './fonts/GeistVF.woff',
 	variable: '--font-geist-sans',
 	weight: '100 900'
 })
+
 const geistMono = localFont({
 	src: './fonts/GeistMonoVF.woff',
 	variable: '--font-geist-mono',
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
 						<Footer />
 					</div>
 				</div>
+				<Toaster />
 			</body>
 		</html>
 	)
